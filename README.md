@@ -18,15 +18,6 @@ Our best results with continual learning on ContCap continual MS COCO dataset sp
 | METEOR   | 26.3   |
 | CIDEr    | 64.1   |
 
-- BLEU-1: 66.4
-- BLEU-2: 47.9
-- BLEU-3: 31.8
-- BLEU-4: 21.8
-- ROUGE-1: 41.8
-- ROUGE-2: 15.1
-- ROUGE-L: 37.0
-- METEOR: 26.3
-- CIDEr: 64.1
 
 **Methodology:**
 
