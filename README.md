@@ -42,4 +42,18 @@ To prevent any single loss from dominating the optimization, we compute adaptive
 The final loss combines these components as and is used in backpropagating using gradient scaling.:
 L=LCE+β⋅Llgcls+Lnouns
 
+**All results**
+
+| MODEL                                                                                     | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | ROUGE-1 | ROUGE-2 | ROUGE-L | METEOR | CIDEr | LGCL           | Time            |
+|-------------------------------------------------------------------------------------------|--------|--------|--------|--------|---------|---------|---------|--------|-------|----------------|-----------------|
+| NO LGCL                                                                                   | 62.83  | 43.31  | 28.49  | 18.94  | 39.28   | 12.73   | 32.99   | 25.32  | 58.46 | `use_lgcl: False` | 31/03/2025 09:45 |
+| SUM+DYNAMIC (best)                                                                        | 66.37  | 47.88  | 31.78  | 21.78  | 41.76   | 15.06   | 36.96   | 26.30  | 64.13 | `use_lgcl: True`  | 02/04/2025 07:25 |
+| DYNAMIC                                                                                   | 61.53  | 41.25  | 26.90  | 17.79  | 38.61   | 12.00   | 32.73   | 27.77  | 57.15 | `use_lgcl: True`  | 05/04/2025 07:52 |
+| SUM                                                                                       | 62.02  | 42.35  | 27.85  | 18.55  | 39.18   | 12.62   | 32.97   | 28.32  | 57.02 | `use_lgcl: True`  | 06/04/2025 06:47 |
+
+| MODEL                   | BLEU-1 | BLEU-2 | BLEU-3 | BLEU-4 | ROUGE-1 | ROUGE-2 | ROUGE-L | METEOR | CIDEr | LGCL           | Time            |
+|-------------------------|--------|--------|--------|--------|---------|---------|---------|--------|-------|----------------|-----------------|
+| No LGCL - Our dataset   | 61.62  | 42.34  | 27.30  | 17.93  | 37.82   | 11.89   | 32.21   | 27.91  | 56.49 | `use_lgcl: False` | 05/04/2025 09:44 |
+| LGCL - Our dataset      | 61.00  | 41.97  | 27.38  | 18.00  | 38.24   | 12.37   | 33.29   | 27.73  | 56.89 | `use_lgcl: True`  | 06/04/2025 12:55 |
+
 
