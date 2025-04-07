@@ -14,7 +14,7 @@ Our best results with continual learning on ContCap continual MS COCO dataset sp
 - METEOR: 26.3
 - CIDEr: 64.1
 
-**Methodology: **
+**Methodology:**
 
 **Multi-Loss Training for Vision-Language Models:**
 The proposed method employs a training strategy that combines multiple loss components to enhance the model's performance in generating accurate image captions while improving its ability to recognize objects and distinguish between visual categories. The approach builds upon a standard cross-entropy loss for language modeling but extends it with two additional objectives: a noun-focused loss and a language-guided contrastive loss, dynamically balanced to ensure stable training.
