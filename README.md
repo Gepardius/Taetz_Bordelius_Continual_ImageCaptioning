@@ -32,8 +32,8 @@ To reinforce the model's ability to recognize and describe key objects in an ima
 For tasks beyond the first task of the training phase, a contrastive loss is applied to improve the model's discriminative capabilities. This component operates in the embedding space:
 1.	Text Embedding Extraction: The noun-based prompts are encoded into fixed-dimensional embeddings using a pretrained text encoder.
 2.	Similarity Measurement: The cosine similarity is computed between:
-o	The image embedding (anchor) and the correct prompt embedding (positive pair).
-o	The image embedding and embeddings from previous tasks (negative pairs).
+The image embedding (anchor) and the correct prompt embedding (positive pair).
+The image embedding and embeddings from previous tasks (negative pairs).
 3.	Triplet-Loss Optimization: The contrastive objective pushes the model to maximize similarity for correct image-text pairs while minimizing it for incorrect ones, following a margin-based formulation:
 
 **Dynamic Weighting Strategy**
