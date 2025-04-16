@@ -48,7 +48,7 @@ The final loss combines these components as and is used in backpropagating using
 L=LCE+β⋅Llgcls+Lnouns
 
 
-**Model diagram**
+**Model TRAINING diagram**
 ![image](https://github.com/user-attachments/assets/a703acb8-939e-4956-b78a-74288488160f)
 
 
