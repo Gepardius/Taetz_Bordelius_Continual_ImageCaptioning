@@ -21,7 +21,7 @@ Our best results with continual learning on ContCap continual MS COCO dataset sp
 **Methodology:**
 
 **Multi-Loss Training for Vision-Language Models:**
-The proposed method employs a training strategy that combines multiple loss components to enhance the model's performance in generating accurate image captions while improving its ability to recognize objects and distinguish between visual categories. The approach builds upon a standard cross-entropy loss for language modeling but extends it with two additional objectives: a noun-focused loss and a language-guided contrastive loss, dynamically balanced to ensure stable training.
+The proposed method introduces a training strategy that integrates multiple loss components to enhance the quality of generated image captions, with a particular focus on improving object recognition and visual discrimination abilities. While the foundation remains the standard cross-entropy loss for language modeling, two assisting approaches, a noun-focused loss and a language-guided contrastive loss, are incorporated to guide the model more effectively during training.
 
 
 **Base Cross-Entropy Loss:**
