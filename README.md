@@ -49,8 +49,7 @@ L=LCE+β⋅Llgcls+Lnouns
 
 
 **Model TRAINING diagram**
-![image](https://github.com/user-attachments/assets/a703acb8-939e-4956-b78a-74288488160f)
-
+![diagram](https://github.com/user-attachments/assets/fd6e5fe4-2643-406f-b8cb-e0a9aa3605d0)
 
 
 
