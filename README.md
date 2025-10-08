@@ -14,11 +14,6 @@ Method summary:
 - Base cross-entropy (CE) loss for caption generation
 - Noun-based auxiliary loss using noun-centric prompts for stronger object grounding
 - Language-Guided Contrastive Loss (LGCL) across tasks for discriminative alignment in embedding space
-- Dynamic weighting of loss terms to avoid domination by any single term
-
-Dynamic weighting:
-- Let L_total = L_ce + L_lgcl + L_nouns and β = L_lgcl / L_total
-- Final objective: L = L_ce + β · L_lgcl + L_nouns
 
 LGCL details:
 - Text embeddings: noun-prompt embeddings from a pretrained text encoder
