@@ -146,6 +146,7 @@ weasel==0.4.1
 wrapt==1.16.0
 
 Setup:
+CLICITA trained models with RATT and ContCap dataset splits: https://huggingface.co/Gepardius/CLICITA
 pretrained base model on full Visual Genome dataset: https://huggingface.co/Gepardius/CLICITA_pretrained_visual_genome
 
 ```bash
