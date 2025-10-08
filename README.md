@@ -146,6 +146,8 @@ weasel==0.4.1
 wrapt==1.16.0
 
 Setup:
+pretrained base model on full Visual Genome dataset: https://huggingface.co/Gepardius/CLICITA_pretrained_visual_genome
+
 ```bash
 # clone
 git clone https://github.com/<your-org>/Taetz_Bordelius_Continual_ImageCaptioning.git
